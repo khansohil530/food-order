@@ -50,7 +50,7 @@ export function CartContextProvider({ children }) {
         dispatchCartAction({ type: "ADD_ITEM", item });
     }
 
-    function removeItem(item) {
+    function removeItem(id) {
         dispatchCartAction({ type: "REMOVE_ITEM", id });
     }
 
